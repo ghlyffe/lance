@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "lance-model",
+  "title": "Model",
+  "description": "A top-level object representing all programmable elements and I/O devices in a model",
+  "type": "array",
+  "items": {
+    "type": ""
+  },
+  "minItems": 1
+}
