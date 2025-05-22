@@ -27,6 +27,14 @@ will be deterministic and consistent; that is, the library will do nothing to in
 sensor noise or real-world modelling, so using this library to test for conditions that will only
 appear in real-world use cases is not supported.
 
+# Simplifying Assumptions
+
+* Colour sensors are always oriented downwards
+* Distance sensors are always oriented forwards
+* The robot is considered a point
+* Models contain a single hub unit
+* No hardware failures (including, e.g., motor slip)
+
 # Divergences
 
 In order to provide hardware information, the simulation layer needs to be configured with a mapping

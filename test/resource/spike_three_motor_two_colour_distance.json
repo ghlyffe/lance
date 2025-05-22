@@ -1,0 +1,17 @@
+{"model":
+    [
+        {
+            "hub_type":"SPIKE",
+            "description": {
+                "ports": {
+                    "A": {"type":"motor","subtype": "med"},
+                    "B": {"type":"sensor","subtype": "colour"},
+                    "C": {"type":"motor","subtype": "sml"},
+                    "D": {"type":"sensor","subtype": "distance"},
+                    "E": {"type":"motor","subtype": "med"},
+                    "F": {"type":"sensor","subtype": "colour"}
+                }
+            }
+        }
+    ]
+}
